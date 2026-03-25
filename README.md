@@ -682,16 +682,16 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 <tr>
 
 <td align="center">
-<a href="https://github.com/sakshinikam05">
-<img src="https://github.com/sakshinikam05.png" width="50" style="border-radius:50%;" /><br>
-<b>Sakshi</b>
+<a href="https://github.com/sukhadajoshi13">
+<img src="https://github.com/sukhadajoshi13.png" width="50" style="border-radius:50%;" /><br>
+<b>Sukhada</b>
 </a>
 </td>
 
 <td align="center">
-<a href="https://github.com/sukhadajoshi13">
-<img src="https://github.com/sukhadajoshi13.png" width="50" style="border-radius:50%;" /><br>
-<b>Sukhada</b>
+<a href="https://github.com/sakshinikam05">
+<img src="https://github.com/sakshinikam05.png" width="50" style="border-radius:50%;" /><br>
+<b>Sakshi</b>
 </a>
 </td>
 
