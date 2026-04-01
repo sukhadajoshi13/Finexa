@@ -45,7 +45,6 @@ AI Financial Coach • Financial Health Score • Smart Budgeting • Expense Tr
 - [Project Structure](#project-structure)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Configuration](#configuration)
 - [Running the Project](#running-the-project)
 - [API Documentation](#api-documentation)
 - [Database Setup](#database-setup)
@@ -218,7 +217,7 @@ Logic_Legion_Finexa/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/Logic_Legion_Finexa.git
+git clone https://github.com/sukhadajoshi13/Logic_Legion_Finexa.git
 cd Logic_Legion_Finexa
 ```
 
@@ -265,64 +264,6 @@ python manage.py createsuperuser
 ```bash
 cd frontend
 npm install
-```
-
----
-
-## ⚙️ Configuration
-
-### Backend Configuration (.env)
-
-```env
-# Django Settings
-DEBUG=True
-SECRET_KEY=your-secret-key-here
-ALLOWED_HOSTS=localhost,127.0.0.1
-
-# Database Configuration
-DATABASE_ENGINE=django.db.backends.postgresql
-DATABASE_NAME=finexa_db
-DATABASE_USER=postgres
-DATABASE_PASSWORD=your-password
-DATABASE_HOST=localhost
-DATABASE_PORT=5432
-
-# MongoDB Configuration
-MONGO_URI=mongodb+srv://username:password@cluster.mongodb.net/finexa
-
-# AI/LLM Configuration
-OPENAI_API_KEY=sk-proj-your-key-here
-GOOGLE_GEMINI_API_KEY=your-gemini-key-here
-
-# Redis Configuration
-REDIS_URL=redis://localhost:6379/0
-
-# JWT Settings
-JWT_SECRET_KEY=your-jwt-secret-key
-JWT_ALGORITHM=HS256
-
-# Email Configuration (Optional)
-EMAIL_BACKEND=django.core.mail.backends.smtp.EmailBackend
-EMAIL_HOST=smtp.gmail.com
-EMAIL_PORT=587
-EMAIL_HOST_USER=your-email@gmail.com
-EMAIL_HOST_PASSWORD=your-app-password
-
-# Allowed Origins (CORS)
-CORS_ALLOWED_ORIGINS=http://localhost:5173,http://localhost:3000
-
-# AWS S3 (Optional, for file storage)
-AWS_ACCESS_KEY_ID=your-access-key
-AWS_SECRET_ACCESS_KEY=your-secret-key
-AWS_STORAGE_BUCKET_NAME=your-bucket-name
-```
-
-### Frontend Configuration
-
-Environment variables are handled in the API client (`src/lib/api.ts`):
-
-```typescript
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:8000/api';
 ```
 
 ---
@@ -714,7 +655,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 </p>
 
-
 ---
 
 <p align="center">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
@@ -728,4 +668,3 @@ Finexa © 2026 • All rights reserved
 </p>
 
 <p align="center">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
-
